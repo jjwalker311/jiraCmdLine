@@ -1,0 +1,23 @@
+{
+  "name": "epiccreator",
+  "preferGlobal": true,
+  "bin": "./cli.js",
+  "version": "1.0.0",
+  "description": "Node App to automatically create Epics and supporting stories",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Walker",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^5.0.2"
+  },
+  "dependencies": {
+    "commander": "^2.13.0",
+    "csvtojson": "^1.1.9",
+    "inquirer": "^5.0.1",
+    "jira": "^0.9.2",
+    "promise": "^8.0.1"
+  }
+}
